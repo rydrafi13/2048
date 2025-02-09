@@ -1,0 +1,7 @@
+services:
+  2048-apps:
+    build: .
+    image: rydrafi13/2048-image
+    container_name: ct-2048-apps
+    ports:
+      - "8090:80"
